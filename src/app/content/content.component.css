@@ -1,0 +1,42 @@
+.content {
+    text-align: center;
+  }
+  
+  .title {
+    color: red;
+  }
+  
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .product-details {
+    margin-top: 10px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .price {
+    float: right;
+  }
+  
+  .buy-link {
+    text-decoration: none;
+  }
+  
+  .buy-link:hover {
+    text-decoration: underline;
+  }
+  

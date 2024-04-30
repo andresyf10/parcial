@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+/* menu-bar.component.css */
+.menu-bar {
+    background-color: #dfdfdf;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 20px;
+  }
+  
+  /* footer.component.css */
+  .footer {
+    background-color: #dfdfdf;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-weight: bold;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,16 @@
+<div class="content">
+    <h2 class="title">Productos</h2>
+  
+    <div class="product-cards">
+      <div class="card" *ngFor="let product of products">
+        <img [src]="product.image" alt="Imagen del producto" height="300">
+        <div class="product-details">
+          <span class="name">{{ product.title }}</span>
+          <span class="price">$ {{ product.price.toFixed(2) }}</span>
+          <a href="#" class="buy-link">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  

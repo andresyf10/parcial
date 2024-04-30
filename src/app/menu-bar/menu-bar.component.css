@@ -1,0 +1,11 @@
+.menu-bar {
+    background-color: #dfdfdf;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 20px; /* Espaciado entre el texto del logo y los bordes de la barra */
+  }
+  
